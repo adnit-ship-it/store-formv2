@@ -23535,6 +23535,27 @@
         }
       ],
       "isManual": true
+    },
+    {
+      "id": "quiz-1768490481039-tj1fl43",
+      "slug": "new-form",
+      "name": "new form",
+      "description": "brief desc",
+      "version": "1.0.0",
+      "metadata": null,
+      "productBundleIds": [],
+      "progressSteps": [
+        {
+          "id": "progress-1768490481040-1",
+          "slug": "information",
+          "name": "Information",
+          "description": "Provide your information",
+          "color": "#3B82F6",
+          "order": 1
+        }
+      ],
+      "formSteps": [],
+      "isManual": true
     }
   ],
   "templates": [],
