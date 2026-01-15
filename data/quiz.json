@@ -19092,66 +19092,6 @@
       ],
       "formSteps": [
         {
-          "id": "confidenceRating",
-          "slug": "confidenceRating",
-          "title": "How do you RATE that bitch your confidence that you could get and keep an erection?",
-          "progressStepId": "assessment",
-          "order": 1,
-          "renderCondition": null,
-          "questions": [
-            {
-              "id": "confidenceRating",
-              "slug": "confidenceRating",
-              "type": "SINGLESELECT",
-              "required": true,
-              "question_order": 1,
-              "validation": [
-                "required"
-              ],
-              "api_type": "SINGLESELECT",
-              "displayAsRow": true,
-              "options": [
-                {
-                  "id": "opt-sexual-health-confidenceRating-1",
-                  "question_id": "confidenceRating",
-                  "value": "Very Low",
-                  "label": "Very Low",
-                  "option_order": 1
-                },
-                {
-                  "id": "opt-sexual-health-confidenceRating-2",
-                  "question_id": "confidenceRating",
-                  "value": "Low",
-                  "label": "Low",
-                  "option_order": 2
-                },
-                {
-                  "id": "opt-sexual-health-confidenceRating-3",
-                  "question_id": "confidenceRating",
-                  "value": "Moderate",
-                  "label": "Moderate",
-                  "option_order": 3
-                },
-                {
-                  "id": "opt-sexual-health-confidenceRating-4",
-                  "question_id": "confidenceRating",
-                  "value": "High",
-                  "label": "High",
-                  "option_order": 4
-                },
-                {
-                  "id": "opt-sexual-health-confidenceRating-5",
-                  "question_id": "confidenceRating",
-                  "value": "Very High",
-                  "label": "Very High",
-                  "option_order": 5
-                }
-              ]
-            }
-          ],
-          "render_condition": null
-        },
-        {
           "id": "edMedicationHistory",
           "slug": "edMedicationHistory",
           "title": "Have you tried ED medication before?",
@@ -20287,6 +20227,66 @@
               ]
             }
           ]
+        },
+        {
+          "id": "confidenceRating",
+          "slug": "confidenceRating",
+          "title": "How do you RATE that bitch your confidence that you could get and keep an erection?",
+          "progressStepId": "assessment",
+          "order": 2,
+          "renderCondition": null,
+          "questions": [
+            {
+              "id": "confidenceRating",
+              "slug": "confidenceRating",
+              "type": "SINGLESELECT",
+              "required": true,
+              "question_order": 1,
+              "validation": [
+                "required"
+              ],
+              "api_type": "SINGLESELECT",
+              "displayAsRow": true,
+              "options": [
+                {
+                  "id": "opt-sexual-health-confidenceRating-1",
+                  "question_id": "confidenceRating",
+                  "value": "Very Low",
+                  "label": "Very Low",
+                  "option_order": 1
+                },
+                {
+                  "id": "opt-sexual-health-confidenceRating-2",
+                  "question_id": "confidenceRating",
+                  "value": "Low",
+                  "label": "Low",
+                  "option_order": 2
+                },
+                {
+                  "id": "opt-sexual-health-confidenceRating-3",
+                  "question_id": "confidenceRating",
+                  "value": "Moderate",
+                  "label": "Moderate",
+                  "option_order": 3
+                },
+                {
+                  "id": "opt-sexual-health-confidenceRating-4",
+                  "question_id": "confidenceRating",
+                  "value": "High",
+                  "label": "High",
+                  "option_order": 4
+                },
+                {
+                  "id": "opt-sexual-health-confidenceRating-5",
+                  "question_id": "confidenceRating",
+                  "value": "Very High",
+                  "label": "Very High",
+                  "option_order": 5
+                }
+              ]
+            }
+          ],
+          "render_condition": null
         },
         {
           "id": "erectionFrequency",
