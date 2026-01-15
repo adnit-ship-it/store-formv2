@@ -55,7 +55,7 @@
       "Blood sugar control",
       "Prescription required"
     ],
-    "quiz": null,
+    "quiz": "sexual-health",
     "order": 2
   },
   {
@@ -88,4 +88,3 @@
     "order": 3
   }
 ]
-
