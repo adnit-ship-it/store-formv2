@@ -20284,6 +20284,51 @@
                   "option_order": 5
                 }
               ]
+            },
+            {
+              "slug": "additional-question",
+              "type": "CHECKBOX",
+              "question": "additional question a",
+              "displayQuestion": null,
+              "placeholder": null,
+              "required": false,
+              "api_type": "TEXT",
+              "validation": null,
+              "icon": "",
+              "displayAsRow": false,
+              "optionImages": [
+                "",
+                ""
+              ],
+              "image": "",
+              "displayStatistics": false,
+              "beforeImage": "",
+              "afterImage": "",
+              "quote": "",
+              "calculatedValues": {},
+              "candidateStatement": "",
+              "heading1": "",
+              "subtext": "",
+              "dynamicSubtext": "",
+              "form_step_id": "confidenceRating",
+              "question_order": 2,
+              "options": [
+                {
+                  "id": "temp-1768474600676",
+                  "question_id": "confidenceRating",
+                  "value": "asdasd",
+                  "label": "asdasd",
+                  "option_order": 1
+                },
+                {
+                  "id": "temp-1768474621134-rrw72hf",
+                  "question_id": "confidenceRating",
+                  "value": "asdsad",
+                  "label": "asdasd",
+                  "option_order": 2
+                }
+              ],
+              "id": "question-1768474626173"
             }
           ],
           "render_condition": null
