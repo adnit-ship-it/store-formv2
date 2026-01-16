@@ -30167,7 +30167,19 @@
                 "/assets/images/intake-form/option-icons/pace_option3.svg"
               ]
             }
-          ]
+          ],
+          "render_condition": {
+            "conditions": [
+              {
+                "field": "pastInitiatives",
+                "operator": "equals",
+                "value": [
+                  "Exercise"
+                ]
+              }
+            ],
+            "logicalOperator": "AND"
+          }
         },
         {
           "id": "perfect",
