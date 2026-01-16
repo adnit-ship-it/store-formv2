@@ -27851,7 +27851,50 @@
           "color": "#3B82F6"
         }
       ],
-      "formSteps": [],
+      "formSteps": [
+        {
+          "id": "temp-1768567951998-q5wbnrp",
+          "slug": "question-title",
+          "title": "Question title",
+          "heading1": "question header",
+          "subtext": "question subtext",
+          "config": null,
+          "is_template_step": false,
+          "render_condition": null,
+          "questions": [
+            {
+              "slug": "email-address",
+              "type": "TEXT",
+              "question": "qeustion title",
+              "displayQuestion": null,
+              "placeholder": "placeholder",
+              "required": true,
+              "api_type": "TEXT",
+              "validation": [
+                "required"
+              ],
+              "icon": "",
+              "displayAsRow": false,
+              "optionImages": [],
+              "image": "",
+              "displayStatistics": false,
+              "beforeImage": "",
+              "afterImage": "",
+              "quote": "",
+              "calculatedValues": {},
+              "candidateStatement": "",
+              "heading1": "",
+              "subtext": "",
+              "dynamicSubtext": "",
+              "form_step_id": "temp-1768567951998-q5wbnrp",
+              "question_order": 1,
+              "id": "question-1768568031279"
+            }
+          ],
+          "order": 1,
+          "progressStepId": "progress-1768565543334-h524lks"
+        }
+      ],
       "isManual": true
     }
   ],
