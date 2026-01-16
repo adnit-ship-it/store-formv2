@@ -27841,6 +27841,14 @@
           "description": "Provide your information",
           "color": "#3B82F6",
           "order": 1
+        },
+        {
+          "id": "progress-1768565543334-h524lks",
+          "order": 2,
+          "slug": "health-info",
+          "name": "health info",
+          "description": "health about customer info",
+          "color": "#3B82F6"
         }
       ],
       "formSteps": [],
