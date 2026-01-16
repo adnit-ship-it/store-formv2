@@ -27824,6 +27824,27 @@
         }
       ],
       "isManual": true
+    },
+    {
+      "id": "quiz-1768565483140-pmwx68s",
+      "slug": "test",
+      "name": "test",
+      "description": "test 1",
+      "version": "1.0.0",
+      "metadata": null,
+      "productBundleIds": [],
+      "progressSteps": [
+        {
+          "id": "progress-1768565483141-1",
+          "slug": "information",
+          "name": "Information",
+          "description": "Provide your information",
+          "color": "#3B82F6",
+          "order": 1
+        }
+      ],
+      "formSteps": [],
+      "isManual": true
     }
   ],
   "templates": [],
